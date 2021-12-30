@@ -5,6 +5,11 @@ target/
 **/build/
 !src/**/build/
 
+.gitattributes
+gradlew
+gradlew.bat
+settings.gradle
+
 # Ignore Gradle GUI config
 gradle-app.setting
 

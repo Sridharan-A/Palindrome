@@ -3,6 +3,7 @@ package org.palindrome;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.security.InvalidParameterException;
@@ -37,7 +38,6 @@ public class PalindromeTest {
     public void testIsPalindromeReturnTrueWhen0IsGivenInput() {
         Assert.assertEquals(true, p.isPalindrome(0));
     }
-
 
     @Test
     public void testIsPalindromeReturnFalseWhen23IsGivenInput() {
